@@ -53,6 +53,7 @@ public class PuzzleGameBoard extends GameBoard {
 	}
 
 	public void setImages() {
+		System.out.println("Test in PuzzleBoard");
 		pic0 = new Image(getDisplay(), "resources/1.jpg");
 		pic1 = new Image(getDisplay(), "resources/2.jpg");
 		pic2 = new Image(getDisplay(), "resources/3.jpg");
