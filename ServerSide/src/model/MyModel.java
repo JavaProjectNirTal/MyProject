@@ -13,6 +13,7 @@ import model.domains.SearchDomain;
 
 public class MyModel extends Observable implements Model {
 	
+	
 	private SearchDomain domain;
 	private String domainDescription;				//for returning the description to the client
 	//private SearchDomainFactory SDF;
